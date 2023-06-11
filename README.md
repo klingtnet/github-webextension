@@ -2,6 +2,8 @@
 
 This is a [WebExtension] that indicates whewn you're in a _non_ private GitHub repository.
 
+![screenshot](screenshot.png)
+
 ## Installation
 
 At the moment the WebExtension can only be installed _temporarily_, until Mozilla verifies my addon submission.

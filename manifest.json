@@ -1,0 +1,24 @@
+{
+    "content_scripts": [
+        {
+            "js": [
+                "webextension.js"
+            ],
+            "matches": [
+                "*://github.com/*"
+            ]
+        }
+    ],
+    "description": "Highlight public repositories.",
+    "developer": {
+        "url": "https://klingt.net"
+    },
+    "homepage_url": "https://github.com/klingtnet/github-webextension",
+    "icons": {
+        "48": "icons/logo-48.png",
+        "96": "icons/logo-96.png"
+    },
+    "manifest_version": 2,
+    "name": "GitHub WebExtension",
+    "version": "0.1.0"
+}

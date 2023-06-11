@@ -20,6 +20,9 @@ jobs:
       - name: Build WebExtension
         run: web-ext build
       - name: Sign WebExtension
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+          API_SECRET: ${{ secrets.API_SECRET }}
         run: web-ext sign --api-key $API_KEY --api-secret $API_SECRET
       - name: Release
         uses: softprops/action-gh-release@v1

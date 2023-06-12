@@ -6,8 +6,7 @@ This is a [WebExtension] that indicates whewn you're in a _non_ private GitHub r
 
 ## Installation
 
-At the moment the WebExtension can only be installed _temporarily_, until Mozilla verifies my addon submission.
-To install a temporary addon open [about:debugging](about:debugging#/runtime/this-firefox), click _Load Temporary Add-on..._ and select either the location of the cloned repository or a local build artifact.  Note that this needs to be done after each browser restart.
+Pick the [latest release](https://github.com/klingtnet/github-webextension/releases/latest) and click on the `*.xpi` asset.  Firefox, or any other browser that supports WebExtensions, should then ask you if you want to install the extension.
 
 ## Development
 

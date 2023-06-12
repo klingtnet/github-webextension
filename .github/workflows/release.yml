@@ -30,4 +30,4 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: web-ext-artifacts/github_webextension-*.zip
+          files: web-ext-artifacts/*.xpi

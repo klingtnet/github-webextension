@@ -4,6 +4,6 @@ if (!header) {
 }
 
 var public = document.head.querySelector('meta[name="octolytics-dimension-repository_public"]');
-if ('content' in public && public.content) {
+if ('content' in public && public.content !== "false") {
     header.style.boxShadow = "0 0 5em darkred";
 }

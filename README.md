@@ -1,6 +1,6 @@
 # GitHub Extension
 
-This is a [WebExtension] that indicates whewn you're in a _non_ private GitHub repository.
+This is a [WebExtension] that indicates when you're in a _non_ private GitHub repository.
 
 ![screenshot](screenshot.png)
 
